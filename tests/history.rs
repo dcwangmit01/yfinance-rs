@@ -2,6 +2,8 @@ mod common;
 
 #[path = "history/adjust_from_splits_only.rs"]
 mod adjust_from_splits_only;
+#[path = "history/fractional_split_tolerance.rs"]
+mod fractional_split_tolerance;
 #[path = "history/adjust.rs"]
 mod history_adjust;
 #[path = "history/intervals.rs"]
